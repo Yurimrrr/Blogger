@@ -6,4 +6,20 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Blogger.Domain\Blogger.Domain.csproj" />
+      <ProjectReference Include="..\Blogger.Extensions.Data.EFCore\Blogger.Extensions.Data.EFCore.csproj" />
+      <ProjectReference Include="..\Blogger.Extensions.Mediator\Blogger.Extensions.Mediator.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Filters" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Dapper" Version="2.0.123" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.3" />
+    </ItemGroup>
+
 </Project>

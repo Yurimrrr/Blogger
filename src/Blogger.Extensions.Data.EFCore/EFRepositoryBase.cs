@@ -19,10 +19,7 @@ public class EFRepositoryBase<TContext, TEntity> : IRepositoryBase<TEntity>
     public IUnitOfWork UnitOfWork => (IUnitOfWork) Context;
     
     public virtual IQueryable<TEntity> GetAll() => Context.Set<TEntity>();
-    
-    public virtual PagedList<TEntity> GetAllPagination(PagedListParameters parameters) => 
-        PagedList<TEntity>.ToPagedList(GetAll(), parameters.PageNumber, parameters.PageSize);
-    
+
     public virtual TEntity? Find(params object[] keyValues) => Context.Set<TEntity>().Find(keyValues);
     
     public virtual async Task<TEntity?> FindAsync(params object[] keyValues) => 

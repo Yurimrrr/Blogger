@@ -1,5 +1,4 @@
 using Blogger.Extensions.Domain.Messaging.Commands;
-using Blogger.Extensions.Domain.Messaging.CommonMessages;
 using FluentValidation.Results;
 using MediatR;
 
@@ -23,12 +22,4 @@ public class MediatorHandler : IMediatorHandler
             throw;
         }
     }
-
-    public void PublishEvent<T>(T @event) where T : Event => _mediator.Publish(@event);
-    
-    public void PublishNotification<T>(T notification) where T : DomainNotification => _mediator.Publish(notification);
-
-    public void PublishDomainEvent<T>(T domainEvent) => _mediator.Publish(domainEvent);
-    
-    public void PublishIntegrationEvent<T>(T @event) where T : IntegrationEvent => _mediator.Publish(@event);
 }

@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Blogger.Extensions.Core\Blogger.Extensions.Core.csproj" />
+      <ProjectReference Include="..\Blogger.Extensions.Data.Core\Blogger.Extensions.Data.Core.csproj" />
+    </ItemGroup>
+
 </Project>

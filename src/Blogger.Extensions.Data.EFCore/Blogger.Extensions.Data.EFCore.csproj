@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\Blogger.Extensions.Core.Domain.Abstractions\Blogger.Extensions.Core.Domain.Abstractions.csproj" />
+      <ProjectReference Include="..\Blogger.Extensions.Core.Domain.Abstractions\Blogger.Extensions.Core.Domain.Abstractions.csproj" />
+      <ProjectReference Include="..\Blogger.Extensions.Data.Core\Blogger.Extensions.Data.Core.csproj" />
+    </ItemGroup>
+
+</Project>
