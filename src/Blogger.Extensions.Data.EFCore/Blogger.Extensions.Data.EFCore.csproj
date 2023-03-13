@@ -7,7 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Blogger.Extensions.Core.Domain.Abstractions\Blogger.Extensions.Core.Domain.Abstractions.csproj" />
       <ProjectReference Include="..\Blogger.Extensions.Core.Domain.Abstractions\Blogger.Extensions.Core.Domain.Abstractions.csproj" />
       <ProjectReference Include="..\Blogger.Extensions.Data.Core\Blogger.Extensions.Data.Core.csproj" />
     </ItemGroup>

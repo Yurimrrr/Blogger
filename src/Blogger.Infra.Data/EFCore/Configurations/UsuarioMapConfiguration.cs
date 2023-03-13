@@ -16,6 +16,21 @@ public class UsuarioMapConfiguration : IEntityTypeConfiguration<Usuario>
         builder.Property(p => p.Id)
             .ValueGeneratedOnAdd()
             .HasColumnName("Id")
-            .HasColumnType("int");
+            .HasColumnType("uniqueidentifier");
+        builder.Property(p => p.Nome)
+            .HasColumnName("Nome")
+            .HasColumnType("varchar(255)");
+        builder.Property(p => p.Senha)
+            .ValueGeneratedOnAdd()
+            .HasColumnName("Senha")
+            .HasColumnType("varchar(255)");
+        builder.Property(p => p.Email)
+            .ValueGeneratedOnAdd()
+            .HasColumnName("Email")
+            .HasColumnType("varchar(255)");
+        builder.Property(p => p.AvatarUrl)
+            .ValueGeneratedOnAdd()
+            .HasColumnName("AvatarUrl")
+            .HasColumnType("varchar(255)");
     }
 }

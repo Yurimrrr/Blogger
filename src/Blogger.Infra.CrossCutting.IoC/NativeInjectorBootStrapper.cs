@@ -9,7 +9,6 @@ public class NativeInjectorBootStrapper
     public static void RegisterService(IServiceCollection services)
     {
         services.AddScoped<IMediatorHandler, MediatorHandler>();
-
         // services.AddSingleton<JwtSettings>();
         // services.AddScoped<IJwtService, JwtService>();
         // services.AddScoped<AuthenticatedUser>();

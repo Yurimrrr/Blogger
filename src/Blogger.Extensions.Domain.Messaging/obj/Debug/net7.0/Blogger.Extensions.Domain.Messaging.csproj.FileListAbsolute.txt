@@ -15,3 +15,20 @@ C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Domain.Messaging\
 C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\refint\Blogger.Extensions.Domain.Messaging.dll
 C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\Blogger.Extensions.Domain.Messaging.pdb
 C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\ref\Blogger.Extensions.Domain.Messaging.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\bin\Debug\net7.0\Blogger.Extensions.Domain.Messaging.deps.json
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\bin\Debug\net7.0\Blogger.Extensions.Domain.Messaging.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\bin\Debug\net7.0\Blogger.Extensions.Domain.Messaging.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\bin\Debug\net7.0\Blogger.Extensions.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\bin\Debug\net7.0\Blogger.Extensions.Data.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\bin\Debug\net7.0\Blogger.Extensions.Data.Core.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\bin\Debug\net7.0\Blogger.Extensions.Core.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\Blogger.Extensions.Domain.Messaging.csproj.AssemblyReference.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\Blogger.Extensions.Domain.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\Blogger.Extensions.Domain.Messaging.AssemblyInfoInputs.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\Blogger.Extensions.Domain.Messaging.AssemblyInfo.cs
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\Blogger.Extensions.Domain.Messaging.csproj.CoreCompileInputs.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\Blogger.Extensions.Domain.Messaging.csproj.CopyComplete
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\Blogger.Extensions.Domain.Messaging.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\refint\Blogger.Extensions.Domain.Messaging.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\Blogger.Extensions.Domain.Messaging.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Domain.Messaging\obj\Debug\net7.0\ref\Blogger.Extensions.Domain.Messaging.dll

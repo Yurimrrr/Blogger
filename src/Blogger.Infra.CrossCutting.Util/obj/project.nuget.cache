@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/gJNQuXylTs/GDnmMeIJ0+yy0oit+GgEvG0VwJ5K/trIfJiCDFB5rMq8xzm7ADLwS5GATY0/7s1MURgZB1Mj5A==",
+  "dgSpecHash": "jxmfgMvc3Dc3Mh2vcnjaHVPB2W4UOENozSyfBpahAuWe4mOUh9in8kaOeIKN6MeJ3YAfWVXOiL3cqxnVW3GNqQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Infra.CrossCutting.Util\\Blogger.Infra.CrossCutting.Util.csproj",
+  "projectFilePath": "D:\\Desenv\\Blogger\\src\\Blogger.Infra.CrossCutting.Util\\Blogger.Infra.CrossCutting.Util.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

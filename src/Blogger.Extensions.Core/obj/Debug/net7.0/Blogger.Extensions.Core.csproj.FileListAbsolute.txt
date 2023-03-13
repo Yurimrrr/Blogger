@@ -10,3 +10,15 @@ C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core\obj\Debug\ne
 C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\refint\Blogger.Extensions.Core.dll
 C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\Blogger.Extensions.Core.pdb
 C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\ref\Blogger.Extensions.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\bin\Debug\net7.0\Blogger.Extensions.Core.deps.json
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\bin\Debug\net7.0\Blogger.Extensions.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\bin\Debug\net7.0\Blogger.Extensions.Core.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\Blogger.Extensions.Core.csproj.AssemblyReference.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\Blogger.Extensions.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\Blogger.Extensions.Core.AssemblyInfoInputs.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\Blogger.Extensions.Core.AssemblyInfo.cs
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\Blogger.Extensions.Core.csproj.CoreCompileInputs.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\Blogger.Extensions.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\refint\Blogger.Extensions.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\Blogger.Extensions.Core.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Core\obj\Debug\net7.0\ref\Blogger.Extensions.Core.dll

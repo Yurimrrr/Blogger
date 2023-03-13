@@ -4,5 +4,5 @@ namespace Blogger.Domain.Interfaces.Repositories.Queries;
 
 public interface IUsuarioQueryRepository : IRepositoryQueryBase
 {
-    // Task<IEnumerable<>>
+    Task<IEnumerable<TUsuarioViewMOdel>> GetAll<TUsuarioViewMOdel>();
 }

@@ -13,3 +13,18 @@ C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Data.Core\obj\Deb
 C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\refint\Blogger.Extensions.Data.Core.dll
 C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\Blogger.Extensions.Data.Core.pdb
 C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\ref\Blogger.Extensions.Data.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\bin\Debug\net7.0\Blogger.Extensions.Data.Core.deps.json
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\bin\Debug\net7.0\Blogger.Extensions.Data.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\bin\Debug\net7.0\Blogger.Extensions.Data.Core.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\bin\Debug\net7.0\Blogger.Extensions.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\bin\Debug\net7.0\Blogger.Extensions.Core.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\Blogger.Extensions.Data.Core.csproj.AssemblyReference.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\Blogger.Extensions.Data.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\Blogger.Extensions.Data.Core.AssemblyInfoInputs.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\Blogger.Extensions.Data.Core.AssemblyInfo.cs
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\Blogger.Extensions.Data.Core.csproj.CoreCompileInputs.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\Blogger.Extensions.Data.Core.csproj.CopyComplete
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\Blogger.Extensions.Data.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\refint\Blogger.Extensions.Data.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\Blogger.Extensions.Data.Core.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Data.Core\obj\Debug\net7.0\ref\Blogger.Extensions.Data.Core.dll

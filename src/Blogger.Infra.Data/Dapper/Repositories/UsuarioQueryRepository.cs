@@ -13,19 +13,19 @@ public class UsuarioQueryRepository : RepositoryQueryBase, IUsuarioQueryReposito
     public UsuarioQueryRepository(IOptions<BloggerConfiguration> configuration) : 
         base(configuration.Value.BloggerSqlConnection) { }
      
-    public async Task<IEnumerable<TExpertiseViewModel>> GetAll<TExpertiseViewModel>()
+    public async Task<IEnumerable<TUsuarioViewMOdel>> GetAll<TUsuarioViewMOdel>()
     {
         string sql = @" SELECT 
-                        Expertise.id AS [Id],
-                        Expertise.nome AS [Nome]       
-                        FROM Expertise AS Expertise WITH (NOLOCK)";
+                        Usuario.id AS [Id],
+                        Usuario.nome AS [Nome]       
+                        FROM Usuario AS Usuario WITH (NOLOCK)";
 
 
         using (var conn = GetConnection())
         {
-            var selectResult = await conn.QueryAsync<TExpertiseViewModel>(sql, param: null, transaction: null, null, CommandType.Text);
+            var result = await conn.QueryAsync<TUsuarioViewMOdel>(sql, param: null, transaction: null, null, CommandType.Text);
 
-            return selectResult;
+            return result;
         }
     }
 }

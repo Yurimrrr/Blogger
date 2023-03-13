@@ -12,7 +12,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Blogger.Extensions.Core.Domain.Abstractions\Blogger.Extensions.Core.Domain.Abstractions.csproj" />
       <ProjectReference Include="..\Blogger.Extensions.Core.Domain.Abstractions\Blogger.Extensions.Core.Domain.Abstractions.csproj" />
       <ProjectReference Include="..\Blogger.Extensions.Data.Core\Blogger.Extensions.Data.Core.csproj" />
       <ProjectReference Include="..\Blogger.Extensions.Domain.Messaging\Blogger.Extensions.Domain.Messaging.csproj" />

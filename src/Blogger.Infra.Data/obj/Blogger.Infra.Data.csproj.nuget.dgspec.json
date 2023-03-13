@@ -1,103 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj": {}
+    "D:\\Desenv\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
+    "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj",
-        "projectName": "Blogger.Extensions.Core.Domain.Abstractions",
-        "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj",
-        "packagesPath": "C:\\Users\\Yuri Moreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\Blogger.Extensions.Core.Domain.Abstractions\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Yuri Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net7.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
-            "projectReferences": {
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
-          "dependencies": {
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[11.5.1, )"
-            },
-            "MediatR": {
-              "target": "Package",
-              "version": "[12.0.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj",
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj",
         "projectName": "Blogger.Domain.Core",
-        "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\Yuri Moreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain.Core\\obj\\",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yuri Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj"
               },
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
               }
             }
           }
@@ -127,40 +62,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj": {
+    "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj",
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj",
         "projectName": "Blogger.Domain",
-        "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj",
-        "packagesPath": "C:\\Users\\Yuri Moreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain\\obj\\",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yuri Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj"
               },
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj"
               },
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
               }
             }
           }
@@ -196,34 +133,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj",
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj",
         "projectName": "Blogger.Extensions.Core.Domain.Abstractions",
-        "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj",
-        "packagesPath": "C:\\Users\\Yuri Moreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\obj\\",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yuri Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj"
               }
             }
           }
@@ -263,26 +202,28 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj",
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj",
         "projectName": "Blogger.Extensions.Core",
-        "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj",
-        "packagesPath": "C:\\Users\\Yuri Moreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\obj\\",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yuri Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -316,34 +257,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj",
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj",
         "projectName": "Blogger.Extensions.Data.Core",
-        "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj",
-        "packagesPath": "C:\\Users\\Yuri Moreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\obj\\",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yuri Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj"
               }
             }
           }
@@ -383,40 +326,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj": {
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj",
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj",
         "projectName": "Blogger.Extensions.Data.EFCore",
-        "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj",
-        "packagesPath": "C:\\Users\\Yuri Moreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\obj\\",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yuri Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj"
               },
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj"
-              },
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
               }
             }
           }
@@ -446,34 +388,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj": {
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj",
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj",
         "projectName": "Blogger.Extensions.Domain.Messaging",
-        "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj",
-        "packagesPath": "C:\\Users\\Yuri Moreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\obj\\",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yuri Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
               }
             }
           }
@@ -513,43 +457,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj": {
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj",
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj",
         "projectName": "Blogger.Extensions.Mediator",
-        "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj",
-        "packagesPath": "C:\\Users\\Yuri Moreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Mediator\\obj\\",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yuri Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj"
               },
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
               },
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
-              },
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj"
               }
             }
           }
@@ -589,40 +532,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj": {
+    "D:\\Desenv\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj",
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj",
         "projectName": "Blogger.Infra.Data",
-        "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj",
-        "packagesPath": "C:\\Users\\Yuri Moreira\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Infra.Data\\obj\\",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Yuri Moreira\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj"
               },
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj"
               },
-              "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj": {
-                "projectPath": "C:\\Users\\Yuri Moreira\\Documents\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj"
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj"
               }
             }
           }
@@ -642,6 +587,12 @@
               "version": "[2.0.123, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.3, )"
             },
@@ -666,7 +617,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
