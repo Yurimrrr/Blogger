@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "qnidaO1if2dP5TGtubxCeJeo7omUzyo6vGyhP9btaJz763spGmGyjRNaJK+6KqZmzMJo/En7yE/rpVqakSsxHA==",
+  "success": true,
+  "projectFilePath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yurim\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\yurim\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\yurim\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\yurim\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

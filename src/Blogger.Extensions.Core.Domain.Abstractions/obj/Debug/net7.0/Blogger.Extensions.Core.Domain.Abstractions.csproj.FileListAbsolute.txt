@@ -1,0 +1,30 @@
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\bin\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.deps.json
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\bin\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.dll
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\bin\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.pdb
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\bin\Debug\net7.0\Blogger.Extensions.Core.dll
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\bin\Debug\net7.0\Blogger.Extensions.Core.pdb
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.csproj.AssemblyReference.cache
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.AssemblyInfoInputs.cache
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.AssemblyInfo.cs
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.csproj.CopyComplete
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.dll
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\refint\Blogger.Extensions.Core.Domain.Abstractions.dll
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.pdb
+C:\Users\Yuri Moreira\Documents\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\ref\Blogger.Extensions.Core.Domain.Abstractions.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\bin\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.deps.json
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\bin\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\bin\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\bin\Debug\net7.0\Blogger.Extensions.Core.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\bin\Debug\net7.0\Blogger.Extensions.Core.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.csproj.AssemblyReference.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.AssemblyInfoInputs.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.AssemblyInfo.cs
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.csproj.CoreCompileInputs.cache
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.csproj.CopyComplete
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\refint\Blogger.Extensions.Core.Domain.Abstractions.dll
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\Blogger.Extensions.Core.Domain.Abstractions.pdb
+D:\Desenv\Blogger\src\Blogger.Extensions.Core.Domain.Abstractions\obj\Debug\net7.0\ref\Blogger.Extensions.Core.Domain.Abstractions.dll

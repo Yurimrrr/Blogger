@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="11.5.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Blogger.Extensions.Core.Domain.Abstractions\Blogger.Extensions.Core.Domain.Abstractions.csproj" />
+      <ProjectReference Include="..\Blogger.Extensions.Data.Core\Blogger.Extensions.Data.Core.csproj" />
+      <ProjectReference Include="..\Blogger.Extensions.Domain.Messaging\Blogger.Extensions.Domain.Messaging.csproj" />
+    </ItemGroup>
+
+</Project>

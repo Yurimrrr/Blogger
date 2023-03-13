@@ -1,0 +1,625 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Desenv\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj": {}
+  },
+  "projects": {
+    "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj",
+        "projectName": "Blogger.Domain.Core",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj"
+              },
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj",
+        "projectName": "Blogger.Domain",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain.Core\\Blogger.Domain.Core.csproj"
+              },
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj"
+              },
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0-preview.1.23110.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj",
+        "projectName": "Blogger.Extensions.Core.Domain.Abstractions",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj",
+        "projectName": "Blogger.Extensions.Core",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj",
+        "projectName": "Blogger.Extensions.Data.Core",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core\\Blogger.Extensions.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj",
+        "projectName": "Blogger.Extensions.Data.EFCore",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj"
+              },
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj",
+        "projectName": "Blogger.Extensions.Domain.Messaging",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj",
+        "projectName": "Blogger.Extensions.Mediator",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Core.Domain.Abstractions\\Blogger.Extensions.Core.Domain.Abstractions.csproj"
+              },
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.Core\\Blogger.Extensions.Data.Core.csproj"
+              },
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Domain.Messaging\\Blogger.Extensions.Domain.Messaging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.5.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Desenv\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Desenv\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj",
+        "projectName": "Blogger.Infra.Data",
+        "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Infra.Data\\Blogger.Infra.Data.csproj",
+        "packagesPath": "C:\\Users\\yurim\\.nuget\\packages\\",
+        "outputPath": "D:\\Desenv\\Blogger\\src\\Blogger.Infra.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\yurim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Domain\\Blogger.Domain.csproj"
+              },
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Data.EFCore\\Blogger.Extensions.Data.EFCore.csproj"
+              },
+              "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj": {
+                "projectPath": "D:\\Desenv\\Blogger\\src\\Blogger.Extensions.Mediator\\Blogger.Extensions.Mediator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
