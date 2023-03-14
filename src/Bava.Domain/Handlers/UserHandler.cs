@@ -6,12 +6,12 @@ using Bava.Domain.Utils;
 
 namespace Bava.Domain.Handlers;
 
-public class UserHandlers : IHandler<CreateUserCommand, User>, IHandler<LoginUserCommand, User>
+public class UserHandler : IHandler<CreateUserCommand, User>, IHandler<LoginUserCommand, User>
 {
     private readonly IUserRepository _userRepository;
     private readonly IHasher _hasher;
     
-    public UserHandlers(IUserRepository userRepository, IHasher hasher)
+    public UserHandler(IUserRepository userRepository, IHasher hasher)
     {
         _userRepository = userRepository;
         _hasher = hasher;
