@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bava.Domain", "src\Bava.Domain\Bava.Domain.csproj", "{BDAA6735-2D2A-4528-B2A7-C13560C4630E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDAA6735-2D2A-4528-B2A7-C13560C4630E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDAA6735-2D2A-4528-B2A7-C13560C4630E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDAA6735-2D2A-4528-B2A7-C13560C4630E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDAA6735-2D2A-4528-B2A7-C13560C4630E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
