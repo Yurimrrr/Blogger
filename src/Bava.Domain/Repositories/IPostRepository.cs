@@ -2,6 +2,6 @@
 
 namespace Bava.Domain.Repositories;
 
-public interface IUserRepository: IBaseRepository<User>
+public interface IPostRepository: IBaseRepository<Post>
 {
 }

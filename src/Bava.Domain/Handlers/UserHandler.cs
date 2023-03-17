@@ -9,14 +9,13 @@ namespace Bava.Domain.Handlers;
 public class UserHandler : IHandler<CreateUserCommand, User>, IHandler<LoginUserCommand, User>
 {
     private readonly IUserRepository _userRepository;
+    private readonly IBlogRepository _blogRepository;
     private readonly IHasher _hasher;
-    
-    public UserHandler(IUserRepository userRepository, IHasher hasher)
-    {
-        _userRepository = userRepository;
-        _hasher = hasher;
-    }
-    
+
+    public UserHandler
+        (IUserRepository userRepository, IHasher hasher, IBlogRepository blogRepository) =>
+        (_userRepository, _hasher, _blogRepository) =
+        (userRepository, hasher, blogRepository);
     public CommandResult<User> Handle(CreateUserCommand command)
     {
         var validation = command.Validate();
@@ -24,21 +23,20 @@ public class UserHandler : IHandler<CreateUserCommand, User>, IHandler<LoginUser
         {
             return new CommandResult<User>(Status.Invalid, "Usuário inválido!");
         }
-
-        var user = _userRepository.GetByEmail(command.Email);
-        if (user != null)
+        
+        if (_userRepository.GetByEmail(command.Email) != null)
         {
             return new CommandResult<User>(Status.Invalid, "Usuário inválido!");
         }
 
-        user = new User
-        {
-            Email = command.Email,
-            Name = command.Name,
-            Password = _hasher.Hash(command.Password),
-        };
+        var user = User.CreateFactory(command.Name, command.Email, command.Password);
+
+         _userRepository.Create(user);
         
-        _userRepository.Create(user);
+        //Create blog.
+        var blog = Blog.CreateFactory(user.Id, user);
+        
+        _blogRepository.Create(blog);
 
         return new CommandResult<User>(Status.Created, "Usuário criado com sucesso!", user);
     }

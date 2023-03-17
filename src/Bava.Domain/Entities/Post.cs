@@ -8,5 +8,12 @@ public class Post : Entity
     public Guid BlogId { get; set; }
     public Blog Blog { get; set; }
 
-    public ICollection<Category> Categories { get; set; }
+    public IEnumerable<Category>? Categories { get; set; } 
+
+    protected Post(string title, string description, Guid blogId, Blog blog, IEnumerable<Category> categories) =>
+        (Title, Description, BlogId, Blog, Categories) =
+        (title, description, blogId, blog, categories);
+
+    public static Post CreateFactory(string title, string description, Guid blogId, Blog blog,
+        IEnumerable<Category> categories) => new(title, description, blogId, blog, categories);
 }

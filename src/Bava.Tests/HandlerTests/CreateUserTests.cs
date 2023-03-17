@@ -6,6 +6,7 @@ namespace Tests.HandlerTests;
 public class CreateUserTests
 {
     private readonly Mock<IUserRepository> _userRepository;
+    private readonly Mock<IBlogRepository> _blogRepository;
     private readonly Mock<IHasher> _hasher;
     private readonly Fixture _fixture;
     private readonly UserHandler _handler;
@@ -19,7 +20,7 @@ public class CreateUserTests
         _userRepository = new Mock<IUserRepository>();
         _hasher = new Mock<IHasher>();
 
-        _handler = new UserHandler(_userRepository.Object, _hasher.Object);
+        _handler = new UserHandler(_userRepository.Object, _hasher.Object, _blogRepository.Object);
     }
 
     [Fact]
@@ -34,6 +35,7 @@ public class CreateUserTests
 
         _userRepository.Setup(repo => repo.GetByEmail(command.Email)).Returns((User) null).Verifiable();
         _userRepository.Setup(repo => repo.Create(It.IsAny<User>())).Verifiable();
+        _blogRepository.Setup(repo => repo.Create(It.IsAny<Blog>())).Verifiable();
         
         _hasher.Setup(repo => repo.Hash(command.Password)).Returns(command.Password).Verifiable();
 
