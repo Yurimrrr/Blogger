@@ -1,6 +1,9 @@
-﻿namespace Bava.Domain.Repositories;
+﻿using Bava.Domain.Entities;
+
+namespace Bava.Domain.Repositories;
 
 public interface IBaseRepository<T>
+    where T : Entity
 {
     T? GetById(Guid Id);
     T? GetByEmail(string Email);

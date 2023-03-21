@@ -10,6 +10,10 @@ internal class CreatePostValidator : AbstractValidator<CreatePostCommand>
     public CreatePostValidator()
     {
         RuleFor(x => x.Title).MinimumLength(3);
+        RuleFor(x => x.Description).MinimumLength(3);
+        RuleFor(x => x.BlogId).NotNull();
+        RuleFor(x => x.Blog).NotNull();
+        RuleFor(x => x.Categories).NotEmpty().NotNull();
     }
 }
 
