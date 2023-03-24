@@ -10,12 +10,12 @@ public class UserHandler : IHandler<CreateUserCommand, User>, IHandler<LoginUser
 {
     private readonly IUserRepository _userRepository;
     private readonly IBlogRepository _blogRepository;
-    private readonly IHasher _hasher;
+    // private readonly IHasher _hasher;
 
     public UserHandler
-        (IUserRepository userRepository, IHasher hasher, IBlogRepository blogRepository) =>
-        (_userRepository, _hasher, _blogRepository) =
-        (userRepository, hasher, blogRepository);
+        (IUserRepository userRepository, IBlogRepository blogRepository) =>
+        (_userRepository, _blogRepository) =
+        (userRepository, blogRepository);
     public CommandResult<User> Handle(CreateUserCommand command)
     {
         var validation = command.Validate();
@@ -24,10 +24,10 @@ public class UserHandler : IHandler<CreateUserCommand, User>, IHandler<LoginUser
             return new CommandResult<User>(Status.Invalid, "Usuário inválido!");
         }
         
-        if (_userRepository.GetByEmail(command.Email) != null)
-        {
-            return new CommandResult<User>(Status.Invalid, "Usuário inválido!");
-        }
+        // if (_userRepository.GetByEmail(command.Email) != null)
+        // {
+        //     return new CommandResult<User>(Status.Invalid, "Usuário inválido!");
+        // }
 
         var user = User.CreateFactory(command.Name, command.Email, command.Password);
 
@@ -50,10 +50,10 @@ public class UserHandler : IHandler<CreateUserCommand, User>, IHandler<LoginUser
         }
 
         var user = _userRepository.GetByEmail(command.Email);
-        if (user == null || _hasher.Validate(command.Password, user.Password))
-        {
-            return new CommandResult<User>(Status.NotFound, "Usuário ou senha inválidos!");
-        }
+        // if (user == null || _hasher.Validate(command.Password, user.Password))
+        // {
+        //     return new CommandResult<User>(Status.NotFound, "Usuário ou senha inválidos!");
+        // }
 
         return new CommandResult<User>(Status.Ok, "Logado com sucesso!", user);
     }

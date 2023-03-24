@@ -7,7 +7,7 @@ public class CreateUserTests
 {
     private readonly Mock<IUserRepository> _userRepository;
     private readonly Mock<IBlogRepository> _blogRepository;
-    private readonly Mock<IHasher> _hasher;
+    // private readonly Mock<IHasher> _hasher;
     private readonly Fixture _fixture;
     private readonly UserHandler _handler;
 
@@ -18,9 +18,9 @@ public class CreateUserTests
         _fixture.Behaviors.Add(new OmitOnRecursionBehavior());
 
         _userRepository = new Mock<IUserRepository>();
-        _hasher = new Mock<IHasher>();
+        // _hasher = new Mock<IHasher>();
 
-        _handler = new UserHandler(_userRepository.Object, _hasher.Object, _blogRepository.Object);
+        // _handler = new UserHandler(_userRepository.Object, _hasher.Object, _blogRepository.Object);
     }
 
     [Fact]
@@ -37,12 +37,12 @@ public class CreateUserTests
         _userRepository.Setup(repo => repo.Create(It.IsAny<User>())).Verifiable();
         _blogRepository.Setup(repo => repo.Create(It.IsAny<Blog>())).Verifiable();
         
-        _hasher.Setup(repo => repo.Hash(command.Password)).Returns(command.Password).Verifiable();
+        // _hasher.Setup(repo => repo.Hash(command.Password)).Returns(command.Password).Verifiable();
 
         var result = _handler.Handle(command);
         
         Assert.Equal(Status.Created, result.Status);
         _userRepository.Verify();
-        _hasher.Verify();
+        // _hasher.Verify();
     }
 }

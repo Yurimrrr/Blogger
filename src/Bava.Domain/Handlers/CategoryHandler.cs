@@ -19,13 +19,13 @@ public class CategoryHandler : IHandler<CreateCategoryCommand, Category>
         var validation = command.Validate();
         if (!validation.IsValid)
         {
-            return new CommandResult<Category>(Status.Invalid, "Usuário inválido!");
+            return new CommandResult<Category>(Status.Invalid, "Categoria inválida!");
         }
 
         var category = Category.CreateFactory(command.Name);
         
         _categoryRepository.Create(category);
 
-        return new CommandResult<Category>(Status.Created, "Usuário criado com sucesso!", category);
+        return new CommandResult<Category>(Status.Created, "Categoria criada com sucesso!", category);
     }
 }
