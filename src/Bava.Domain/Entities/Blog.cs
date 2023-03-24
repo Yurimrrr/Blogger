@@ -7,6 +7,9 @@ public class Blog : Entity
 
     public IEnumerable<Post> Posts { get; set; } = new List<Post>();
 
+    public Blog()
+    {
+    }
     protected Blog(Guid ownerId, User owner, IEnumerable<Post> posts) =>
         (OwnerId, Owner, Posts) = (ownerId, owner, posts);
 

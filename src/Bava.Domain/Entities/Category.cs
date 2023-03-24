@@ -6,6 +6,11 @@ public class Category : Entity
 
     public ICollection<Post> Posts { get; set; }
 
+    public Category()
+    {
+        
+    }
+
     protected Category(string name) =>
         (Name) = (name);
 

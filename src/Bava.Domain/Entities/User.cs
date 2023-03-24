@@ -9,6 +9,11 @@ public class User : Entity
     public string Password { get; set; }
     public string AvatarUrl { get; set; } = string.Empty;
 
+    public User()
+    {
+        
+    }
+
     protected User(string name, string email, string password, string avatarUrl)
         => (Name, Email, Password, AvatarUrl) = (name, email, password, avatarUrl);
 

@@ -8,6 +8,7 @@ public abstract class Entity : IEquatable<Entity>
     {
         Id = new Guid();
     }
+    
 
     public bool Equals(Entity? other)
     {

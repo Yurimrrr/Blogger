@@ -8,7 +8,12 @@ public class Post : Entity
     public Guid BlogId { get; set; }
     public Blog Blog { get; set; }
 
-    public IEnumerable<Category>? Categories { get; set; } 
+    public IEnumerable<Category>? Categories { get; set; }
+
+    public Post()
+    {
+        
+    }
 
     protected Post(string title, string description, Guid blogId, Blog blog, IEnumerable<Category> categories) =>
         (Title, Description, BlogId, Blog, Categories) =
