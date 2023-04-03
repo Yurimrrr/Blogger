@@ -1,47 +1,39 @@
 ﻿using Bava.Domain.Entities;
 using Bava.Domain.Repositories;
 using Bava.Infra.Context;
-using Microsoft.EntityFrameworkCore;
 
 namespace Bava.Infra.Repositories.RepositoryBase;
 
 public class BaseRepository<T> : IBaseRepository<T>
     where T : Entity
 {
-    private readonly BavaContext _dbContext;
-    private  DbSet<T> _dbSet;
+    protected readonly BavaContext DbContext;
 
     public BaseRepository(BavaContext dbContext)
     {
-        _dbContext = dbContext;
-        _dbSet = _dbContext.Set<T>();
-    }
-    
-    public T? GetById(Guid id)
-    {
-        return _dbSet.Find(id);
+        DbContext = dbContext;
     }
 
-    public T? GetByEmail(string email)
+    public T? GetById(Guid id)
     {
-        throw new NotImplementedException();
+        return DbContext.Find<T>(id);
     }
 
     public void Create(T t)
     {
-        _dbSet.Add(t);
-        _dbContext.SaveChanges();
+        DbContext.Add(t);
+        DbContext.SaveChanges();
     }
 
     public void Update(T t)
     {
-        _dbSet.Update(t);
-        _dbContext.SaveChanges();
+        DbContext.Update(t);
+        DbContext.SaveChanges();
     }
 
     public void Delete(T t)
     {
-        _dbSet.Remove(t);
-        _dbContext.SaveChanges();
+        DbContext.Remove(t);
+        DbContext.SaveChanges();
     }
 }

@@ -11,8 +11,8 @@ namespace Bava.Infra.Context;
 
 public class BavaContext : DbContext
 {
-    public BavaContext(DbContextOptions<BavaContext> options)
-        : base (options)
+    #pragma warning disable CS8618
+    public BavaContext(DbContextOptions<BavaContext> options) : base(options)
     {
     }
 
@@ -24,7 +24,7 @@ public class BavaContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<User>();
-        
+
         modelBuilder.Entity<Blog>().HasMany(b => b.Posts)
             .WithOne(c => c.Blog)
             .HasForeignKey(u => u.BlogId);
@@ -38,6 +38,5 @@ public class BavaContext : DbContext
 
         modelBuilder.Entity<Category>().HasMany(b => b.Posts)
             .WithMany(c => c.Categories);
-
     }
 }

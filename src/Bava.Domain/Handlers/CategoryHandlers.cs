@@ -14,6 +14,7 @@ public class CategoryHandler : IHandler<CreateCategoryCommand, Category>
         (ICategoryRepository categoryRepository) =>
         (_categoryRepository) =
         (categoryRepository);
+
     public CommandResult<Category> Handle(CreateCategoryCommand command)
     {
         var validation = command.Validate();
@@ -22,8 +23,8 @@ public class CategoryHandler : IHandler<CreateCategoryCommand, Category>
             return new CommandResult<Category>(Status.Invalid, "Categoria inválida!");
         }
 
-        var category = Category.CreateFactory(command.Name);
-        
+        var category = Category.Create(command.Name);
+
         _categoryRepository.Create(category);
 
         return new CommandResult<Category>(Status.Created, "Categoria criada com sucesso!", category);

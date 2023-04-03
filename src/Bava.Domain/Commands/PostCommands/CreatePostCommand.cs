@@ -1,9 +1,8 @@
 ﻿using Bava.Domain.Commands.Contracts;
-using Bava.Domain.Entities;
 using FluentValidation;
 using FluentValidation.Results;
 
-namespace Bava.Domain.Commands.CategoryCommands;
+namespace Bava.Domain.Commands.PostCommands;
 
 internal class CreatePostValidator : AbstractValidator<CreatePostCommand>
 {
@@ -12,8 +11,6 @@ internal class CreatePostValidator : AbstractValidator<CreatePostCommand>
         RuleFor(x => x.Title).MinimumLength(3);
         RuleFor(x => x.Description).MinimumLength(3);
         RuleFor(x => x.BlogId).NotNull();
-        RuleFor(x => x.Blog).NotNull();
-        RuleFor(x => x.Categories).NotEmpty().NotNull();
     }
 }
 
@@ -22,8 +19,7 @@ public class CreatePostCommand : ICommand
     public string Title { get; set; }
     public string Description { get; set; }
     public Guid BlogId { get; set; }
-    public Blog Blog { get; set; }
-    public IEnumerable<Category>? Categories { get; set; }
+
     public ValidationResult Validate()
     {
         var validator = new CreatePostValidator();

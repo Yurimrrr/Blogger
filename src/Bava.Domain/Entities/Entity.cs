@@ -4,11 +4,11 @@ public abstract class Entity : IEquatable<Entity>
 {
     public Guid Id { get; set; }
 
-    public Entity()
+    protected Entity()
     {
         Id = new Guid();
     }
-    
+
 
     public bool Equals(Entity? other)
     {
