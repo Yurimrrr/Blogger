@@ -5,6 +5,7 @@ public class Post : Entity
     public string Title { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public bool Published { get; set; } = false;
+    public DateTime? DatePublished { get; set; }
     public Guid BlogId { get; set; }
     public Blog Blog { get; set; } = new();
 

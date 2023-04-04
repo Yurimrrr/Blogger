@@ -5,7 +5,8 @@ using Bava.Domain.Repositories;
 
 namespace Bava.Domain.Handlers;
 
-public class PostHandlers : IHandler<CreatePostCommand, Post>, IHandler<DeletePostCommand>
+public class PostHandlers : IHandler<CreatePostCommand, Post>, IHandler<DeletePostCommand>,
+    IHandler<PublishPostCommand, Post>
 {
     private readonly IPostRepository _postRepository;
 
@@ -45,5 +46,26 @@ public class PostHandlers : IHandler<CreatePostCommand, Post>, IHandler<DeletePo
         _postRepository.Delete(post);
 
         return new CommandResult(Status.Ok, "Post deletado com sucesso!");
+    }
+
+    public CommandResult<Post> Handle(PublishPostCommand command)
+    {
+        var validation = command.Validate();
+        if (!validation.IsValid)
+        {
+            return new CommandResult<Post>(Status.Invalid, "Dados incorretos!");
+        }
+
+        var post = _postRepository.GetById(command.PostId);
+        if (post == null || post.Blog.OwnerId != command.UserId)
+        {
+            return new CommandResult<Post>(Status.Unauthorized, "Usuário não autorizado a publicar o post!");
+        }
+
+        post.Published = true;
+        post.DatePublished = DateTime.Now;
+        _postRepository.Update(post);
+
+        return new CommandResult<Post>(Status.Ok, "Post publicado com sucesso!", post);
     }
 }
